@@ -1,9 +1,9 @@
 $(function () {
   
   $(".saveBtn").on("click", function() { 
-    var hourId = $(this).parent().attr("id"); 
+    var hoursId = $(this).parent().attr("id"); 
     var userInput = $(this).siblings(".description").val(); 
-    localStorage.setItem(hourId, userInput); 
+    localStorage.setItem(hoursId, userInput); 
   });
 
 
@@ -29,8 +29,8 @@ $(function () {
   
   function renderStoredInput() { 
     $(".time-block").each(function() { 
-      var hourId = $(this).attr("id"); 
-      var storedInput = localStorage.getItem(hourId); 
+      var hoursId = $(this).attr("id"); 
+      var storedInput = localStorage.getItem(hoursId); 
       if (storedInput !== null) { 
         $(this).find(".description").val(storedInput); 
       }
