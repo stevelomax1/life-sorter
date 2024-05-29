@@ -12,3 +12,6 @@ The workday scheduler will be a helpful tool for those with busy schedules that 
 
 
 ![image](https://github.com/stevelomax1/life-sorter/assets/155032779/4c873ae3-0a43-4edb-a8a1-c969edd83d1e)
+
+
+https://github.com/stevelomax1/life-sorter
